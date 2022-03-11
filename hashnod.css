@@ -1,0 +1,511 @@
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-1 {
+  float: left;
+  text-align: center;
+  border-right: 1px solid #cccbcb;
+  padding: 1% 0.6%;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+}
+.col-1 .home {
+  margin: 10% 0%;
+}
+.col-1 .menu {
+  margin: 15% 0%;
+}
+.col-1 .submenu {
+  margin: 50% 0px;
+}
+.col-1 a {
+  display: block;
+  text-decoration: none;
+  font: 13px sans-serif;
+  color: #000;
+}
+
+.col-10 {
+  float: left;
+  padding: 2% 3%;
+}
+.col-10 .head {
+  display: flex;
+  justify-content: space-around;
+}
+.col-10 .head .button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0px 10px;
+  font-size: 18px;
+}
+.col-10 .head .button:hover {
+  background-color: #d6d3d3;
+  border-radius: 5px;
+}
+.col-10 .head .button1 {
+  border: 1px solid blue;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 0px 10px;
+  color: blue;
+  font-size: 18px;
+}
+.col-10 .head .button1:hover {
+  background-color: rgba(7, 7, 247, 0.349);
+}
+.col-10 .subhead {
+  text-align: center;
+  width: 50%;
+  margin: 10% 22%;
+}
+.col-10 .subhead h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.col-10 .subhead p {
+  text-align: center;
+}
+.col-10 .subhead .but0, .col-10 .subhead .but01 {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  padding: 10px 30px;
+  box-shadow: 0px 0px 8px #bdbcbc;
+  margin-top: 5%;
+}
+.col-10 .subhead .but0 b, .col-10 .subhead .but01 b {
+  font-size: 18px;
+}
+.col-10 .subhead .but0:hover, .col-10 .subhead .but01:hover {
+  box-shadow: none;
+}
+.col-10 .subhead .but01 {
+  display: none;
+}
+.col-10 .content {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+}
+.col-10 .content .box, .col-10 .content .box1 {
+  border: 2px solid blue;
+  width: 20%;
+  height: 150px;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 10px;
+  background-color: white;
+}
+.col-10 .content .box img, .col-10 .content .box1 img {
+  height: 70px;
+  padding-bottom: 20px;
+}
+.col-10 .content .box:hover, .col-10 .content .box1:hover {
+  box-shadow: 0px 0px 8px #e2e1e1;
+}
+.col-10 .content1 {
+  margin-top: 10%;
+}
+.col-10 .content1 nav {
+  display: flex;
+}
+.col-10 .content1 nav .card10 {
+  margin: 1%;
+}
+.col-10 .content1 nav .card, .col-10 .content1 nav .card0 {
+  width: 350px;
+  margin: 2%;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  background-color: white;
+  padding: 1% 4%;
+  box-sizing: border-box;
+}
+.col-10 .content1 nav .card .cardb, .col-10 .content1 nav .card0 .cardb {
+  display: flex;
+}
+.col-10 .content1 nav .card .cardb div p, .col-10 .content1 nav .card0 .cardb div p {
+  font-size: 14px;
+  padding-left: 0.013%;
+  margin-top: -10%;
+}
+.col-10 .content1 nav .card .cardb img, .col-10 .content1 nav .card0 .cardb img {
+  border-radius: 50%;
+  height: 40px;
+  margin-top: 5%;
+}
+.col-10 .content1 p {
+  font-size: 18px;
+}
+.col-10 .content1 p a {
+  text-decoration: none;
+  color: #807d7d;
+}
+.col-10 .content1 p a:hover {
+  background-color: rgba(216, 213, 213, 0.397);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.col-10 .card1 {
+  margin: 10% 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-10 .card1 div {
+  width: 28%;
+  font-size: 20px;
+  margin-right: 5%;
+}
+.col-10 .card1 div h3 {
+  font-weight: 800;
+  font-size: 40px;
+}
+.col-10 .content2 h2 {
+  font-weight: 700;
+  font-size: 28px;
+}
+.col-10 .content2 .card2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-10 .content2 .card2 div, .col-10 .content2 .card2 .div, .col-10 .content2 .card2 .div1 {
+  width: 28.4%;
+  margin-right: 5%;
+  font-size: 18px;
+}
+.col-10 .content2 .card2 div h4, .col-10 .content2 .card2 .div h4, .col-10 .content2 .card2 .div1 h4 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.col-10 .content2 .card2 div img, .col-10 .content2 .card2 .div img, .col-10 .content2 .card2 .div1 img {
+  height: 200px;
+}
+.col-10 .content2 .card2 .div {
+  width: 24.8%;
+}
+.col-10 .content2 .card2 .div1 {
+  width: 28.5%;
+}
+.col-10 .content3 h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.col-10 .content3 nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-10 .content3 nav .card03, .col-10 .content3 nav .card3 {
+  width: 26%;
+  margin-right: 2%;
+  text-align: center;
+  padding: 2%;
+}
+.col-10 .content3 nav .card03 h4, .col-10 .content3 nav .card3 h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.col-10 .content3 nav .card3 {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  background-color: white;
+}
+.col-10 .content3 .p {
+  text-align: center;
+  margin-top: 5%;
+}
+.col-10 .content3 .p button {
+  padding: 1%;
+  color: white;
+  background-color: blue;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.col-10 .content3 .p button b {
+  font-size: 20px;
+  font-weight: 700;
+}
+.col-10 .content3 .p button:hover {
+  box-shadow: 0px 0px 5px #a8a8a8;
+}
+.col-10 .content4 {
+  margin-top: 12%;
+}
+.col-10 .content4 h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.col-10 .content4 .p {
+  text-align: center;
+  margin-top: 3%;
+}
+.col-10 .content4 button {
+  background-color: transparent;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 10px;
+  padding: 1%;
+}
+.col-10 .content4 button b {
+  font-size: 16px;
+  color: #4b4a4a;
+}
+.col-10 .content4 button:hover {
+  background-color: rgba(175, 171, 171, 0.507);
+}
+.col-10 .content4 nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-10 .content4 nav .blog {
+  width: 45%;
+  margin-right: 1%;
+}
+.col-10 .content4 nav .blog .blogger {
+  display: flex;
+  width: 90%;
+}
+.col-10 .content4 nav .blog .blogger img {
+  border-radius: 50%;
+  height: 90px;
+}
+.col-10 .content4 nav .blog .blogger div {
+  margin-left: 5%;
+}
+.col-10 .content4 nav .blog .blogger div p a {
+  color: #646363;
+}
+.col-10 .content4 nav .blog .blogger div a {
+  text-decoration: none;
+  color: black;
+}
+.col-10 .subfoot {
+  text-align: center;
+  margin-top: 15%;
+  border-bottom: 1px solid #bebebe;
+}
+.col-10 .subfoot h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+.col-10 .subfoot p {
+  text-align: center;
+}
+.col-10 .subfoot .btn, .col-10 .subfoot .btn1 {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: blue;
+  padding: 1% 2%;
+  color: white;
+  margin-bottom: 10%;
+}
+.col-10 .subfoot .btn b, .col-10 .subfoot .btn1 b {
+  font-size: 20px;
+}
+.col-10 .subfoot .btn1 {
+  display: none;
+}
+.col-10 .footer {
+  margin: 10% 0%;
+  display: flex;
+  justify-content: space-between;
+}
+.col-10 .footer div {
+  display: inline-block;
+}
+.col-10 .footer div .link {
+  width: 80%;
+  margin-right: 5%;
+}
+.col-10 .footer div .link .li {
+  padding-bottom: 25%;
+  border-bottom: 1px solid gray;
+  width: 110px;
+}
+.col-10 .footer div .link li {
+  padding-top: 10%;
+}
+.col-10 .footer div .links li {
+  padding-bottom: 15%;
+}
+.col-10 .footer div ul {
+  list-style-type: none;
+}
+.col-10 .footer div ul a {
+  text-decoration: none;
+  color: #525151;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .col-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 60px;
+    border-bottom: 1px solid whitesmoke;
+  }
+  .col-1 .home {
+    margin: 0%;
+  }
+  .col-1 .menu {
+    display: none;
+  }
+  .col-1 .submenu {
+    margin: -2% 0% 0%;
+    display: flex;
+  }
+  .col-1 .submenu .dark {
+    margin-top: 25%;
+  }
+
+  .col-10 .head {
+    display: none;
+  }
+  .col-10 .subhead {
+    width: 100%;
+    margin: 0% 0% 10% 2%;
+  }
+  .col-10 .subhead .but0 {
+    display: none;
+  }
+  .col-10 .subhead .but01 {
+    display: inherit;
+    margin-left: 40%;
+  }
+  .col-10 .content {
+    margin-left: 2%;
+  }
+  .col-10 .content .box, .col-10 .content .box1 {
+    width: 35%;
+  }
+  .col-10 .content1 nav {
+    overflow-x: scroll;
+    overflow-y: visible;
+    width: 100%;
+  }
+  .col-10 .card1 div {
+    width: 100%;
+  }
+  .col-10 .card1 img {
+    display: none;
+  }
+  .col-10 .content2 .card2 div, .col-10 .content2 .card2 .div, .col-10 .content2 .card2 .div1 {
+    width: 100%;
+  }
+  .col-10 .content3 nav {
+    margin-left: 10%;
+  }
+  .col-10 .content3 nav .card3, .col-10 .content3 nav .card03 {
+    width: 35%;
+    margin-right: 10px;
+  }
+  .col-10 .content3 nav .card3 h4, .col-10 .content3 nav .card03 h4 {
+    font-size: 15px;
+  }
+  .col-10 .content3 nav .card3 p, .col-10 .content3 nav .card03 p {
+    display: none;
+  }
+  .col-10 .content3 nav .card3 {
+    border-radius: 0px;
+    border: none;
+  }
+  .col-10 .content4 nav .blog {
+    width: 100%;
+  }
+  .col-10 .content4 nav .blog .blogger {
+    display: block;
+  }
+  .col-10 .content4 nav .blog .blogger img {
+    position: relative;
+    left: 20px;
+  }
+  .col-10 .subfoot .btn1 {
+    display: inherit;
+    margin-left: 40%;
+  }
+  .col-10 .subfoot .btn {
+    display: none;
+  }
+  .col-10 .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .col-10 .footer div {
+    display: block;
+  }
+  .col-10 .footer div .link .li {
+    padding-bottom: 10%;
+  }
+  .col-10 .footer div .link li {
+    padding-top: 5%;
+  }
+  .col-10 .footer div .links li {
+    padding-bottom: 2%;
+  }
+}
+
+/*# sourceMappingURL=hashnod.css.map */
